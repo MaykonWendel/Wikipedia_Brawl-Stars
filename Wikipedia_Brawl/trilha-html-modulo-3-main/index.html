@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .brawlers {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        .brawlers th {
+            background-color: #ffcc00;
+            color: black;
+            padding: 10px;
+        }
+
+        .brawlers td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .brawlers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .brawlers tr:hover {
+            background-color: #ddd;
+        }
+
+        .classe{
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        .classe th{
+            background-color: #27abf3;
+            color: black;
+            padding: 10px;
+        }
+
+        .classe td{
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .classe tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+
+        .classe tr:hover{
+            background-color: #ddd;
+        }
+
+        .rank{
+            display: block;
+            margin: 20px auto;
+            max-width: 90%;
+            height: auto;
+        }
+
+        .logob{
+            text-align: left;
+            margin-top: 20px;
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <div class="logo">
+            <img class="logob" src="assets/images/Brawl_ícone.png" width="200"/>
+        </div>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="content">
+        <div class="sidebar">
+            <h2>Jogo mobile</h2>
+            <ul>
+                <li><a href="#">Links</a></li>
+                <li><a target="_blank" href="https://supercell.com/en/games/brawlstars/">Supercell</a></li>
+                <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=pt_BR">Play Store</a></li>
+                <li><a target="_blank" href="https://apps.apple.com/br/app/brawl-stars/id1229016807">App Store</a></li>
+                <li><a target="_blank" href="https://store.supercell.com/pt/brawlstars">Supercell Store</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h1 >Tudo sobre o Brawl Stars</h1>
+            <p>O protótipo do jogo começou a ser desenvolvido ainda em 2014, quando Jon Franzas, um designer e programador que trabalhava na Supercell, decidiu idealizar um projeto de algo que fosse similar com o universo do vídeojogo Clash of Clans, lançado 2 anos antes. Franzas inicialmente queria que o projeto tivesse uma temática voltada para um universo de fantasia, pois era algo que os próprios desenvolvedores da empresa já trabalharam antes em jogos como Boom Beach, Hay Day e o próprio Clash of Clans.</p>
+            <h2 id="ideia">Ideia inicial</h2>
+            <p>Logo no início, se pensou em uma temática espacial para o jogo na ideia de um universo de ficção científica, e graças a isto, o jogo recebeu o nome de Project Laser. Frank Keinburg, principal diretor-chefe do projeto, disse em uma entrevista concedida à Apple que sua equipe pensou nessa hipótese, pois até aquele presente momento a publisher "nunca havia trabalhado com algo relacionado ao espaço sideral". "Queríamos algo que fosse relacionado ao espaço, pois nossa ideia inicial seria criar um ambiente em que você pudesse viajar para vários lugares diferentes", afirmou Keinburg.</p>
+            <h2 id="jogabilidade">Jogabilidade</h2>
+            <p>Em Brawl Stars, os jogadores lutam contra outros jogadores ou oponentes de IA (chamados de "bots") nos vários modos de jogo. Eles podem escolher entre variados personagens chamados Brawlers, que são desbloqueáveis através de vales, Brawl Pass, Star Drops ou comprados na Loja, para usar em batalhas.</p>
+            <p>O Brawl conta com uma variedade de modos de jogo diferentes que os jogadores podem escolher, cada um com um objetivo diferente. Os jogadores podem convidar amigos para jogar com eles até o tamanho máximo de equipe do modo de jogo, que varia de 2 até 10.</p>
+            <p>Além disso, é possível comprar visuais (roupas ou skins) com moedas, gemas, blings, através do Brawl Pass ou vencendo Desafios por exemplo. Os visuais, como de costume, alteram a aparência dos personagens; mas alguns deles também alteram as falas, ataques, efeitos, animações e até mesmo seus passos. Existem 5 raridades de skins: raro, super-raro, épico, mítico e lendário, custando 29, 79, 149, 199 e 299 gemas respectivamente.</p>
+            <h2 id="brawlers_todo">Brawlers</h2>
+            <p>Os brawlers são divididos em raridades, que são elas:</p>
+            <p>Raro, Super-raro, Épico, Mítico, Lendário e Ultralendário.</p>
+
+            <table class="brawlers">
+                <thead>
+                <tr>
+                    <th>Raridade</th>
+                    <th>Quantidade de Brawlers</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Inicial</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Raro</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Super-raro</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Épico</td>
+                    <td>29</td>
+                </tr>
+                <tr>
+                    <td>Mítico</td>
+                    <td>37</td>
+                </tr>
+                <tr>
+                    <td>Lendário</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Ultralendário</td>
+                    <td>1</td>
+                    </tbody>
+            </table>
+
+            <h2 id="classe_brawl">Classes de Brawlers</h2>
+            <p>Os brawlers são divididos em diferentes classes, cada uma com suas características e estilos de jogo únicos, que são:</p>
+            <p>Tanque, algoz, suporte, controle, destruidor, tiro preciso e detonadores.</p>
+
+            <table class="classe">
+                <thead>
+                    <tr>
+                        <th>Classe</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tanque</td>
+                        <td>14</td>
+                    </tr>
+                    <tr>
+                        <td>Algoz</td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>Suporte</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Controle</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>Destruidor</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>Tiro preciso</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>Detonadores</td>
+                        <td>7</td>
+                    </tr>
+                </tbody>
+            </table><br>
+
+            <h2 id="sistema">Sistema atual de classificação de troféus por rank.</h2>
+
+            <img class="rank" src="assets/images/All.png" alt="Imagem dos Brawlers">
+        </div>
+
+        <div class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#ideia">Ideia inicial</a></li>
+                <li><a href="#jogabilidade">Jogabilidade</a></li>
+                <li><a href="#brawlers_todo">Brawlers</a></li>
+                <li><a href="#classe_brawl">Classes</a></li>
+                <li><a href="#sistema">Sistema atual</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+</html>
